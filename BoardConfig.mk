@@ -108,4 +108,5 @@
  TARGET_BOARD_PLATFORM := pineapple
 
 # Recovery
- BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
+$(call soong_config_set, ufsbsg, ufsframework, bsg)
+BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE := true
