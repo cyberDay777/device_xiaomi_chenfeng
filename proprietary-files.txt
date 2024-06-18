@@ -1,4 +1,4 @@
-# Unpinned blobs from chenfeng-user 15 AQ3A.240912.001 OS2.0.2.0.VNJINXM release-keys
+# Unpinned blobs from Chenfeng-user 15 AQ3A.240912.001 OS2.0.2.0.VNJINXM release-keys
 
 # ACDB
 odm/etc/acdbdata/Forte/Forte_acdb_cal.acdb
@@ -157,7 +157,6 @@ vendor/lib64/rfs/dsp/libvpt_action_recognition.so
 vendor/lib64/rfs/dsp/libworker_pool.so
 
 # Alarm
-system_ext/app/PowerOffAlarm/PowerOffAlarm.apk
 system_ext/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.alarm-service
 vendor/bin/power_off_alarm
@@ -2025,7 +2024,6 @@ system_ext/lib64/vendor.qti.latency@2.0.so
 system_ext/lib64/vendor.qti.latency@2.1.so
 system_ext/lib64/vendor.qti.latency@2.2.so
 system_ext/lib64/vendor.qti.latency@2.3.so
-vendor/app/CneApp/CneApp.apk
 vendor/bin/hw/vendor.qti.hardware.factory-service
 vendor/bin/hw/vendor.qti.hardware.factory@1.0-service
 vendor/bin/cnd
@@ -2883,7 +2881,6 @@ product/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 product/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so
 product/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 product/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/lib64/vendor.qti.hardware.embmssl@1.0.so
 system_ext/lib64/vendor.qti.hardware.embmssl@1.1.so
 system_ext/lib64/vendor.qti.hardware.embmsslaidl-V2-ndk.so
@@ -2908,8 +2905,6 @@ system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 system_ext/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-vendor/app/IWlanService/IWlanService.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/ATFWD-daemon
 vendor/bin/adpl
@@ -3101,7 +3096,6 @@ system_ext/lib64/vendor.qti.ims.rcsuce@1.1.so
 system_ext/lib64/vendor.qti.ims.rcsuce@1.2.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so
 system_ext/lib64/vendor.qti.imsrtpservice@3.1.so
-system_ext/priv-app/ims/ims.apk
 vendor/bin/ims_rtp_daemon
 vendor/etc/init/ims_rtp_daemon.rc
 vendor/etc/seccomp_policy/imsrtp.policy
@@ -3393,7 +3387,6 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermald-devices.conf
 
 # Time services
-vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
@@ -3819,7 +3812,6 @@ system_ext/lib64/libwfduibcsrcinterface.so
 system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so
 system_ext/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
-system_ext/priv-app/WfdService/WfdService.apk
 vendor/bin/wfdhdcphalservice
 vendor/bin/wfdvndservice
 vendor/bin/wifidisplayhalservice
@@ -3862,7 +3854,6 @@ vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so
 vendor/lib64/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 
 # Miscellaneous
-odm/app/goodix_sz/goodix_sz.apk
 odm/bin/hw/android.hardware.nqnfc-service.nxp
 odm/bin/hw/mfp-daemon
 odm/bin/hw/mifaced
@@ -4352,11 +4343,6 @@ odm/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so
 odm/mitee/ta/a3ba6512-6e0e-4065-93165e4a7d04ca08.ta
 odm/mount/camera/lib/rfsa/adsp/libSnpeHtpV73Skel.so
 odm/mount/camera/lib64/rfs/dsp/libbitml_nsp_73nb_skel.so
-vendor/app/CACertService/CACertService.apk
-vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
-vendor/app/TxPwrAdmin/TxPwrAdmin.apk
-vendor/app/com.qualcomm.qti.gpudrivers.pineapple.api34/com.qualcomm.qti.gpudrivers.pineapple.api34.apk
 vendor/bin/hw/capabilityconfigstoretest
 vendor/bin/hw/miperf_client
 vendor/bin/hw/pasrknob
