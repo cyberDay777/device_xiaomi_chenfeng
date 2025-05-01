@@ -64,8 +64,8 @@ TARGET_SCREEN_DENSITY := 480
  
  BOARD_KERNEL_CMDLINE := \
      video=vfb:640x400,bpp=32,memsize=3072000 \
-     swinfo.fingerprint=chenfeng:14/OS2.0.2.0.VNJINXM:user \ 
-     mtdoops.fingerprint=chenfeng:14/OS2.0.2.0.VNJINXM:user bootconfig \
+     swinfo.fingerprint=chenfeng:$(LINEAGE_VERSION) \ 
+     mtdoops.fingerprint=chenfeng:$(LINEAGE_VERSION)
 
  BOARD_BOOTCONFIG := \
      androidboot.hardware=qcom \
