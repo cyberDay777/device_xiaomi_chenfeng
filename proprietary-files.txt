@@ -191,13 +191,13 @@ vendor/lib64/hw/audio.r_submix.default.so
 vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/gyro_fusion_interface.so
 vendor/lib64/libPeripheralStateUtils.so
-vendor/lib64/libagm.so
+-vendor/lib64/libagm.so
 vendor/lib64/libagmclient.so
 vendor/lib64/libalsautils.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
-vendor/lib64/libar-pal.so
+-vendor/lib64/libar-pal.so
 vendor/lib64/libarmemlog.so
 vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
@@ -224,7 +224,7 @@ vendor/lib64/libresampler.so
 vendor/lib64/libultrasound_notify.so
 vendor/lib64/libvui_intf.so
 vendor/lib64/libxlog.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
 vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.pal@1.0.so
