@@ -4383,7 +4383,6 @@ vendor/bin/athdiag
 vendor/bin/audioadsprpcd
 vendor/bin/audiodsd2pcmtest
 vendor/bin/audioflacapp
-vendor/bin/boringssl_self_test64
 vendor/bin/btconfig
 vendor/bin/ccid_daemon_nr
 vendor/bin/checkpoint_gc
@@ -4547,7 +4546,6 @@ vendor/etc/eva/facelandmark/weight_2.dat
 vendor/etc/eva/facelandmark/weight_3_1.dat
 vendor/etc/eva/facelandmark/weight_3_2.dat
 vendor/etc/eva/itof/tuning_params_sensor_type_1.json
-vendor/etc/init/boringssl_self_test.rc
 vendor/etc/init/dcfd.rc
 vendor/etc/init/ddr_training.rc
 vendor/etc/init/diagcommd.rc
@@ -4743,10 +4741,6 @@ vendor/etc/ambient_para.conf
 vendor/etc/audio_cloud_control_white_list.xml
 vendor/etc/audio_diag.cfg
 vendor/etc/batching.conf
-vendor/etc/boringssl_self_test.no_zygote.rc
-vendor/etc/boringssl_self_test.zygote32.rc
-vendor/etc/boringssl_self_test.zygote64.rc
-vendor/etc/boringssl_self_test.zygote64_32.rc
 vendor/etc/card-defs.xml
 vendor/etc/charger_diag.cfg
 vendor/etc/charger_fw_fstab.qti
