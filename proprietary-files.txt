@@ -1962,13 +1962,10 @@ vendor/lib64/libfastcvopt.so
 
 # CIT
 vendor/bin/hw/vendor.xiaomi.cit.bluetooth-service
-vendor/bin/hw/vendor.xiaomi.cit.wifi-service
 vendor/etc/init/vendor.xiaomi.cit.bluetooth-service.rc
-vendor/etc/init/vendor.xiaomi.cit.wifi-service.rc
 vendor/etc/vintf/manifest/vendor.xiaomi.cit.bluetooth-service.xml
-vendor/etc/vintf/manifest/vendor.xiaomi.cit.wifi-service.xml
 vendor/lib64/vendor.xiaomi.cit.bluetooth-V1-ndk_platform.so
-vendor/lib64/vendor.xiaomi.cit.wifi-V1-ndk.so
+
 
 # CNE
 lib64/vendor.qti.hardware.data.connectionaidl-V1-ndk.so
@@ -2495,7 +2492,6 @@ vendor/bin/loc_launcher
 vendor/bin/lowi-server
 vendor/bin/slim_daemon
 vendor/bin/xtra-daemon
-vendor/bin/xtwifi-client
 vendor/lib64/libdataitems.so
 vendor/lib64/libgps.utils.so
 vendor/lib64/libizat_client_api.so
@@ -2516,7 +2512,6 @@ vendor/lib64/libqcc_sdk.so
 vendor/lib64/libqmi_csi.so
 vendor/lib64/libsensorndkbridge.so
 vendor/lib64/libsys_info_cache.so
-vendor/lib64/libwifiobserver.so
 vendor/lib64/vendor.qti.gnss-V6-ndk.so
 
 # GNSS configs
@@ -2524,7 +2519,6 @@ vendor/etc/apdr.conf
 vendor/etc/gps.conf
 vendor/etc/lowi.conf
 vendor/etc/sap.conf
-vendor/etc/xtwifi.conf
 
 # Health
 vendor/bin/hw/android.hardware.health-service.qti
@@ -3739,35 +3733,6 @@ vendor/bin/hw/android.hardware.weaver-service.nxp-qti
 vendor/etc/init/android.hardware.weaver-service.nxp.rc
 vendor/etc/vintf/manifest/android.hardware.weaver-service.nxp.xml
 vendor/lib64/ese_weaver.so
-
-# Wi-Fi
-system_ext/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
-system_ext/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
-vendor/bin/hw/android.hardware.wifi-service
-vendor/bin/hw/hostapd
-vendor/bin/hw/wpa_supplicant
-vendor/bin/cnss-daemon
-vendor/bin/hostapd_cli
-vendor/bin/wpa_cli
-vendor/etc/init/android.hardware.wifi-service.rc
-vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
-vendor/etc/vintf/manifest/android.hardware.wifi-service.xml
-vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml
-vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml
-vendor/lib64/libcert_parse.wpa_s.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/libpasn.so
-vendor/lib64/libwifi-hal-ctrl.so
-vendor/lib64/libwifi-hal-qcom.so
-vendor/lib64/libwifi-hal.so
-vendor/lib64/vendor.qti.hardware.wifi.supplicant-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
-vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
-vendor/lib64/vendor.xiaomi.hardware.wifi.hardware-V1-ndk.so
-vendor/lib64/vendor.xiaomi.hardware.wifi.hostapd-V1-ndk.so
-vendor/lib64/vendor.xiaomi.hardware.wifi.supplicant-V1-ndk.so
 
 # Wi-Fi configs
 vendor/etc/wifi/dlc/qcom_game_latency_predict.dlc
